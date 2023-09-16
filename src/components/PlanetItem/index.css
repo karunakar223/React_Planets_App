@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.li-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 292px;
+    width: 405px;
+  }
+}
+
+.name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
